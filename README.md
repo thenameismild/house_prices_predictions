@@ -1,14 +1,14 @@
-# Overview
+## Overview
 
 In this project I am looking to predict housing prices from the data set provided. Through looking at the data and evaluating different possibility of uses for this information I have decided that I will be fousing on helping business optimized house pricing predictions for their clients.
 
 My audience for this projects are real estate companies that are helping their client estimate their estate value. The problem I will be tackling is what are the features that are most helpful for the client to tell the real estate companies to allow them to help the client estimate their real estate price more accurately.
 
-# The Data
+## The Data
 
 I was giving a data test which contains all the information on the features and categories that the house has with their sale price, and another real estate data set with similar features and categories without the sale price to be use for the prediction model.
 
-# The Model
+## The Model
 
 In the project I decided to test the data using 4 models, linear regression, lasso model, ridge model and elasticnet. For each model I decided which model was the most suitable for the different features I selected to predict by using the model that return the lowest root mean squared error. 
 
@@ -38,12 +38,12 @@ I then fitted the model with the selected data and returned a lasso regression t
 |Neighborhood_NridgHt|Physical locations within Ames city limits|2075.178767|
 |Neighborhood_Crawfor|Physical locations within Ames city limits|720.392614|
 
-# Evaluation
+## Evaluation
 Through comparing this model coefficients to other model that I did shows that the top 5 categories are consistent with all the model while in the top 10 coefficients there are some similarities but some model have other columns like garrage cars in the categories of their model as well.
 
 From looking at the final model, I believe that there could have been columns that could be removed, or when create dummes variable, there might be other options like One Hot Encoding or mapping categories to reduce errors point.
 
-# Recommendations
+## Recommendations
 From the information and modeling, I believe that the features that would add the most value to predict home prices are:
 - Above Ground Living Area
 - Overall Quality of the house
